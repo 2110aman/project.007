@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  div {
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+    float: left;
+    width: 20%;
+    height: 500px;
+    background: #ccc;
+    padding: 20px;
+  }
+
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  article {
+    float: left;
+    padding-left: 200px;
+    padding: 50px;
+    width: 20%;
+    background-color: #f1f1f1;
+    height: 200px;
+
+  }
+
+  p.a60 {
+    line-height: 1.2;
+  }
+
+
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+</style>
+
+<body>
+  <section>
+    <div>
+
+      <img src="aman.jpg" height="80px" width="100px" style="border-radius: 800%;">
+      <p style="font-size: 20px; line-height:5px;font-family:baskerville old face"> <b>Aman Singh</b></p>
+      <p style="font-size: 10px;">
+        <span style="color:#160f77;  line-height:15px">WEB DESIGNER || HTML | CSS </span>
+      </p>
+      <p style="font-size: small; line-height:25px">
+        <u> <a href="#" style="color: #0a83c4;"> HOME</a></u><br>
+        <a href="#about" style="text-decoration-color: #ccc; color: black;" > ABOUT</a><br>
+        <a href="#Service" style="text-decoration-color: #ccc ; color:black " > SERVICES</a><br>
+        SKILLS <br>
+        EDUCATION <br>
+        EXPERIENCE <br>
+        WORK <br>
+        BLOG <br>
+        CONTACT <br>
+      </p>
+      <p style="font-size: x-small; color:#6e6b65;">© Copyright ©2023 All rights reserved | This<br>
+        portfolio is made with ♥ by <a style="color:#17b5c2;">Aman</a><br>
+        Contact:<a href="https://www.gmail.com" style="color:#17b5c2;">2110aman@gmail.com</a> </P>
+
+    </div>
+
+    <artical>
+      <br><br><br> <IMG src="aman.1.png" height="500px" width="25%" style="float: right; margin-right: 100px;">
+      <br><br><br>
+      <p style="font-size:300%; line-height:10px"> &nbsp; &nbsp;I am</p>
+      <p style="font-size:300%; line-height:10px"> &nbsp; &nbsp;a Web </p>
+      <p style="font-size:300%; line-height:10px"> &nbsp; &nbsp;Designer</p>
+      <p style="font-size:100%;font-family:Arial, Helvetica, sans-serif"> &nbsp;&nbsp; &nbsp; &nbsp;100% Passionate &
+        Dedicated<br>
+
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;for <span style="color:#17b5c2;">Coding</span>
+      </p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="link1.html"  style="text-decoration-color:white; color: black;"><button type="button"
+        style="font-size:40%; letter-spacing:2px; text-align: center; border:2px solid black; border-radius:3px;padding-bottom: 4px;">VIEW
+        PORTFOLIO </a><img
+          src="https://th.bing.com/th?id=OIP.eURN6FEaba3_pAguBjhvsgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.6&pid=3.1&rm=2"
+          HEIGHT="10PX" width="10PX" style=""><a href="geeksforgeeks.png" download="portfolio; "></a>
+      </button>
+      <br><br><br><br><br>
+      <p style="font-size:100%; line-height:1px"> &nbsp; &nbsp;&nbsp;&nbsp; &#9679;</p>
+      <p style="font-size:100%; line-height:1px"> &nbsp; &nbsp;&nbsp;&nbsp; &#x25CB;</p>
+      </a>
+
+      </article>
+  </section>
+  <section id="about"  style="text-align: center; 
+  width: 100%;
+  height: 170px;
+  background: #ccc;
+  padding: 5px;
+  font-family:Arial, Helvetica, sans-serif;">
+    <h1 style="font-size:150%;font-family:baskerville old face">ABOUT</h1>
+    <p>Aman Singh is a dedicated student currently pursuing a Bachelor's degree in Computer Applications (BCA) at GLA
+      University, Mathura. Hailing from the vibrant city of Lucknow, Aman has a passion for coding and is known for his
+      enthusiasm in the field of computer science. When he's not immersed in programming projects, you'll often find him
+      in the table tennis arena, showcasing his skills and enjoying some friendly matches. With a love for technology
+      and a knack for coding, Aman is on a journey to explore the endless possibilities that the world of computer
+      science offers</p>
+    </section><br>
+   <section id="Service"  style=" 
+ width: 100%;
+ height: 170px;
+ background: #ccc;
+ padding: 5px;
+ font-family:Arial, Helvetica, sans-serif; ">
+   <h1 style="font-size:150%;font-family:baskerville old face">SERVICES</h1>
+   <ul>
+    <li>Web designing</li>
+    <li>Digital Marketing</li>
+    <li>Event Management</li>
+    <li>Social Media Management</li>
+    <li>Event Flyers and Poster Designer</li>
+  </ul>
+   
+
+ </section>
+
+
+</body>
+
+</html>
